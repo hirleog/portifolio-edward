@@ -336,6 +336,7 @@
     line-height: 65px;
   }
   .image-icon2 {
+    width: 1em;
     flex: 1;
   }
   .heading-22 {
@@ -351,6 +352,14 @@
   .about {
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
+  }
+
+  .portfolios-title {
+    width: 170px;
+    height: 2px;
+    bottom: 66.2px;
+    left: 155.9px;
+    background-color: var(--color-darkslategray);
   }
 }
 @media screen and (max-width: 450px) {

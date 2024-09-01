@@ -20,6 +20,7 @@
   line-height: 44px;
   font-weight: 400;
   font-family: inherit;
+  color: #C3C1BE;
 }
 .experience {
   display: flex;
@@ -128,10 +129,15 @@
   font-size: var(--font-size-17xl);
   color: var(--color-gray-100);
 }
+.resume-title {
+  display: flex;
+  justify-content: center;
+}
 .resume,
 .resume-title-parent {
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  justify-content: center;
   max-width: 100%;
 }
 .resume-title-parent {
@@ -397,6 +403,7 @@
   .experiences-content,
   .section2 {
     gap: var(--gap-6xl);
+    flex-direction: column;
   }
 
   .section2 {
@@ -404,7 +411,22 @@
     padding-right: var(--padding-82xl);
     padding-bottom: var(--padding-20xl);
     box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+
   }
+  .resume-divider-wrapper {
+    width: 170px;
+    height: 2px;
+    bottom: 66.2px;
+    left: 103.6px;
+    background-color: var(--color-darkslategray);
+  }
+  .resume-title {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 10px;
+}
+
 }
 @media screen and (max-width: 450px) {
   .heading-27 {

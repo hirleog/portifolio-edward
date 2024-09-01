@@ -180,6 +180,26 @@
     padding-bottom: var(--padding-46xl);
     box-sizing: border-box;
   }
+  .news-title {
+    width: 170px;
+    height: 2px;
+    bottom: 66.2px;
+    left: 136.8px;
+    background-color: var(--color-darkslategray);
+  }
+  .service-list {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px 28px;
+    min-height: 692px;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-100);
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 450px) {
   .heading-24 {
