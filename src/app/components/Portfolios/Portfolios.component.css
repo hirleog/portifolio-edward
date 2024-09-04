@@ -186,6 +186,14 @@
   .portfolios {
     padding-bottom: var(--padding-46xl);
     box-sizing: border-box;
+    padding-top: 1em;
+  }
+  .portfolios-title-divider {
+    width: 170px;
+    height: 2px;
+    bottom: 66.2px;
+    left: 201.7px;
+    background-color: var(--color-darkslategray);
   }
 }
 @media screen and (max-width: 450px) {

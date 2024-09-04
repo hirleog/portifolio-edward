@@ -1,15 +1,17 @@
-<div class="backgroundborder1">
-      <div class="backgroundborder-wrapper">
-        <img class="backgroundborder-icon" alt="" [src]="backgroundBorder" />
+<!-- <div class="container"> -->
+  <div class="backgroundborder1">
+    <div class="backgroundborder-wrapper">
+      <img class="backgroundborder-icon" alt="" [src]="backgroundBorder" />
+    </div>
+    <div class="frame-parent" [ngStyle]="frameDivStyle">
+      <div class="heading-23" [ngStyle]="heading2Style">
+        {{ heading2UIUXDesign }}
       </div>
-      <div class="frame-parent" [ngStyle]="frameDivStyle">
-        <div class="heading-2-uiux-design-wrapper" [ngStyle]="frameDiv1Style">
-          <div class="heading-23" [ngStyle]="heading2Style">{{heading2UIUXDesign}}</div>
-        </div>
-        <div class="lorem-ipsum-dolor-container">
-          <p class="lorem-ipsum-dolor">Lorem ipsum dolor sittem ametamn</p>
-          <p class="lorem-ipsum-dolor">elit, per sed do eiusmoad teimpor</p>
-          <p class="lorem-ipsum-dolor">sittem elit inuning utsed sittem.</p>
-        </div>
+      <div class="lorem-ipsum-dolor-container">
+        <p class="lorem-ipsum-dolor">Lorem ipsum dolor sittem ametamn</p>
+        <p class="lorem-ipsum-dolor">elit, per sed do eiusmoad teimpor</p>
+        <p class="lorem-ipsum-dolor">sittem elit inuning utsed sittem.</p>
       </div>
     </div>
+  </div>
+<!-- </div> -->

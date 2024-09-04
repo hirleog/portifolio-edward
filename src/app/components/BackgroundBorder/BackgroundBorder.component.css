@@ -42,6 +42,7 @@
   align-items: flex-end;
   justify-content: flex-start;
   gap: var(--gap-lg);
+  align-items: center;
 }
 .backgroundborder1 {
   width: 350px;
@@ -57,6 +58,32 @@
   font-size: var(--font-size-xl);
   color: var(--color-gray-100);
   font-family: var(--font-inter);
+}
+@media screen and (max-width: 1161px) {
+  .backgroundborder1 {
+    width: 100%;
+    align-items: center;
+  }
+  .lorem-ipsum-dolor {
+    display: contents;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contentt {
+    max-width: 1097px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  .backgroundborder1 {
+    width: 100%;
+  }
+  .lorem-ipsum-dolor {
+    display: contents;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 450px) {
   .heading-23 {
