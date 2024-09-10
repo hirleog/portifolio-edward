@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
+import { Component, ViewEncapsulation, HostBinding, OnInit } from "@angular/core";
 
 import { Header } from "../../components/Header/Header.component";
 import { FrameComponent } from "../../components/FrameComponent/FrameComponent.component";
@@ -10,6 +10,8 @@ import { Portfolios } from "../../components/Portfolios/Portfolios.component";
 import { Reviews } from "../../components/Reviews/Reviews.component";
 import { News } from "../../components/News/News.component";
 import { FrameComponent1 } from "../../components/FrameComponent1/FrameComponent1.component";
+// import * as AOS from 'aos';  // Importação do AOS
+
 @Component({
   selector: "lading-page",
   standalone: true,
@@ -29,8 +31,14 @@ import { FrameComponent1 } from "../../components/FrameComponent1/FrameComponent
   templateUrl: "./LadingPage.component.html",
   styleUrls: ["./LadingPage.component.css"],
 })
+// export class LadingPage implements OnInit {
 export class LadingPage {
   @HostBinding("style.display") display = "contents";
 
   constructor() {}
+
+  // ngOnInit(): void {
+  //   AOS.init();  // Inicialização do AOS
+
+  // }
 }

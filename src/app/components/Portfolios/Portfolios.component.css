@@ -178,6 +178,9 @@
   color: var(--color-gray-500);
   font-family: var(--font-inter);
 }
+.ajust-title-port {
+  padding-top: 10em;
+}
 @media screen and (max-width: 925px) {
   .heading-210 {
     font-size: var(--font-size-26xl);
@@ -195,6 +198,10 @@
     left: 201.7px;
     background-color: var(--color-darkslategray);
   }
+  .ajust-title-port {
+    padding-top: 12em;
+    margin-bottom: -6em;
+}
 }
 @media screen and (max-width: 450px) {
   .heading-210 {

@@ -1,6 +1,11 @@
-<section class="news">
-      <div class="news-content">
-        <div class="news-header-wrapper">
+<app-title-section
+  [title]="title"
+  class="ajust-about-title"
+></app-title-section>
+
+<section class="news container">
+  <div class="news-content">
+    <!-- <div class="news-header-wrapper">
           <div class="news-header">
             <h1 class="heading-212">LATEST NEWS</h1>
             <div class="news-title-divider">
@@ -9,8 +14,40 @@
             </div>
             <h3 class="blog1">BLOG</h3>
           </div>
-        </div>
-        <div class="container4"><tabpanel1 [link]="'assets/link-7@2x.png'" [whatAreTheLatestTrendsInGraph]="'What are the latest trends in Graphic'" [designAccordingToYou]="'design according to you?'"> </tabpanel1><tabpanel1 [propHeight]="'unset'" [link]="'assets/link-8@2x.png'" [propHeight1]="'209px'" [propFlex]="'unset'" [propMaxHeight]="'unset'" [propAlignSelf]="'stretch'" [propTextDecoration]="'none'" [whatAreTheLatestTrendsInGraph]="'What do you think makes someone a'" [designAccordingToYou]="'good designer?'"> </tabpanel1><tabpanel1 [propHeight]="'313.6px'" [link]="'assets/link-9@2x.png'" [propHeight1]="'unset'" [propFlex]="'1'" [propMaxHeight]="'100%'" [propAlignSelf]="'unset'" [propTextDecoration]="'none'" [whatAreTheLatestTrendsInGraph]="'Were there any mistakes you’ve'" [designAccordingToYou]="'made as a designer'"> </tabpanel1>
-        </div>
-      </div>
-    </section>
+        </div> -->
+    <div class="container4">
+      <tabpanel1
+        [link]="'assets/link-7@2x.png'"
+        [whatAreTheLatestTrendsInGraph]="
+          'What are the latest trends in Graphic'
+        "
+        [designAccordingToYou]="'design according to you?'"
+      >
+      </tabpanel1
+      ><tabpanel1
+        [propHeight]="'unset'"
+        [link]="'assets/link-8@2x.png'"
+        [propHeight1]="'209px'"
+        [propFlex]="'unset'"
+        [propMaxHeight]="'unset'"
+        [propAlignSelf]="'stretch'"
+        [propTextDecoration]="'none'"
+        [whatAreTheLatestTrendsInGraph]="'What do you think makes someone a'"
+        [designAccordingToYou]="'good designer?'"
+      >
+      </tabpanel1
+      ><tabpanel1
+        [propHeight]="'313.6px'"
+        [link]="'assets/link-9@2x.png'"
+        [propHeight1]="'unset'"
+        [propFlex]="'1'"
+        [propMaxHeight]="'100%'"
+        [propAlignSelf]="'unset'"
+        [propTextDecoration]="'none'"
+        [whatAreTheLatestTrendsInGraph]="'Were there any mistakes you’ve'"
+        [designAccordingToYou]="'made as a designer'"
+      >
+      </tabpanel1>
+    </div>
+  </div>
+</section>

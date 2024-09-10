@@ -1,13 +1,20 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { AppRoutingModule } from "./app-routing.module";
 import { provideAnimationsAsync } from "@angular/platform-browser/animations/async";
+import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
+import { TitleSectionComponent } from "./frame/title-section/title-section.component";
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    TitleSectionComponent
+  ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

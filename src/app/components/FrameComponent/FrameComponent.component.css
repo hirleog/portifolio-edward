@@ -116,7 +116,7 @@
 
 .container {
   align-self: stretch;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: var(--padding-111xl-9) var(--padding-386xl) var(--padding-117xl-9);
   position: relative;
   gap: var(--gap-17xl);
@@ -342,15 +342,20 @@
   width: 42%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1490px) {
   .container {
     padding-left: var(--padding-183xl);
     padding-right: var(--padding-183xl);
     box-sizing: border-box;
+    /* background-color: red; */
+
   }
 
   .hero-imgjpg-icon {
     width: 42%;
+  }
+  .hero-description {
+    min-height: 750px;
   }
 }
 

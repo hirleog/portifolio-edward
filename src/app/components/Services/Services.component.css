@@ -1,3 +1,4 @@
+
 .heading-24 {
   margin: 0;
   align-self: stretch;
@@ -7,6 +8,10 @@
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
+}
+.ajust-service-title {
+  padding-top: 10em;
+
 }
 
 .horizontal-divider2 {
@@ -195,10 +200,90 @@
   font-family: var(--font-inter);
 }
 
+
+
+
 .ajust-title {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.news-divider {
+  width: 576.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+
+.heading-210 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 108px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 90px;
+}
+
+/* .portfolios1 {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+} */
+.portfolios-title-divider,
+.portfolios1 {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+}
+
+.portfolios-title-divider {
+  width: 170px;
+  height: 2px;
+  bottom: 46.2px;
+  left: 201.7px;
+  background-color: var(--color-darkslategray);
+}
+
+.horizontal-divider20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+
+.horizontal-divider21 {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  background-color: var(--color-goldenrod);
+  width: 70px;
+  height: 2px;
+  z-index: 2;
+}
+
+.news-divider {
+  width: 576.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1161px) {
@@ -242,6 +327,7 @@
   .lorem-ipsum-dolor1 {
     display: contents;
   }
+
   .content-container {
     max-width: 1097px;
     width: 100%;
@@ -252,7 +338,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 925px) {
 
   .backgroundborder2 {
     width: 100%;
@@ -263,12 +349,22 @@
     align-items: center;
   }
 
-  /* .content-container {
-    max-width: 1097px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box;
-    padding: 0px;
-  } */
+  .heading-210 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 108px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: var(--font-size-8xl);
+    padding-bottom: 1em;
+    margin-top: -20px;
+  }
+
+  .ajust-service-title {
+    padding-top: 10em;
+    margin-bottom: -3em;
+  }
 }
