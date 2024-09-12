@@ -1,15 +1,15 @@
-import { Component, ViewEncapsulation, HostBinding, OnInit } from "@angular/core";
+import { Component, HostBinding, ViewEncapsulation } from "@angular/core";
 
-import { Header } from "../../components/Header/Header.component";
-import { FrameComponent } from "../../components/FrameComponent/FrameComponent.component";
 import { About } from "../../components/About/About.component";
-import { Services } from "../../components/Services/Services.component";
-import { Section } from "../../components/Section/Section.component";
-import { Section1 } from "../../components/Section1/Section1.component";
+import { FooterComponent } from "../../components/footer/footer.component";
+import { FrameComponent } from "../../components/FrameComponent/FrameComponent.component";
+import { NavComponent } from "../../components/nav/nav.component";
+import { News } from "../../components/News/News.component";
 import { Portfolios } from "../../components/Portfolios/Portfolios.component";
 import { Reviews } from "../../components/Reviews/Reviews.component";
-import { News } from "../../components/News/News.component";
-import { FrameComponent1 } from "../../components/FrameComponent1/FrameComponent1.component";
+import { Section } from "../../components/Section/Section.component";
+import { Section1 } from "../../components/Section1/Section1.component";
+import { Services } from "../../components/Services/Services.component";
 // import * as AOS from 'aos';  // Importação do AOS
 
 @Component({
@@ -17,7 +17,6 @@ import { FrameComponent1 } from "../../components/FrameComponent1/FrameComponent
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   imports: [
-    Header,
     FrameComponent,
     About,
     Services,
@@ -26,7 +25,8 @@ import { FrameComponent1 } from "../../components/FrameComponent1/FrameComponent
     Portfolios,
     Reviews,
     News,
-    FrameComponent1,
+    NavComponent,
+    FooterComponent,
   ],
   templateUrl: "./LadingPage.component.html",
   styleUrls: ["./LadingPage.component.css"],
@@ -35,7 +35,7 @@ import { FrameComponent1 } from "../../components/FrameComponent1/FrameComponent
 export class LadingPage {
   @HostBinding("style.display") display = "contents";
 
-  constructor() {}
+  constructor() { }
 
   // ngOnInit(): void {
   //   AOS.init();  // Inicialização do AOS

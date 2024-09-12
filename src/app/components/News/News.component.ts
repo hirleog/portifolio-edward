@@ -2,11 +2,12 @@ import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
 
 import { Tabpanel1 } from "../Tabpanel1/Tabpanel1.component";
 import { TitleSectionComponent } from "../../frame/title-section/title-section.component";
+import { FooterComponent } from "../footer/footer.component";
 @Component({
   selector: "news",
   standalone: true,
   encapsulation: ViewEncapsulation.None,
-  imports: [Tabpanel1, TitleSectionComponent],
+  imports: [Tabpanel1, TitleSectionComponent, FooterComponent],
   templateUrl: "./News.component.html",
   styleUrls: ["./News.component.css"],
 })

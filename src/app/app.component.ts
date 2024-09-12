@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import * as AOS from 'aos';  // Importando AOS corretamente
 
 @Component({
   selector: "app-root",
@@ -8,4 +9,9 @@ import { Component } from "@angular/core";
     </div>
   `,
 })
-export class AppComponent {}
+export class AppComponent implements OnInit {
+  ngOnInit() {
+    AOS.init();
+    window.addEventListener('load', AOS.refresh);
+  }
+}

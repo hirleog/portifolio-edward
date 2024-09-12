@@ -68,7 +68,7 @@
 
 
 .testimonial-card {
-  background-color: var(--darkreader-text--color-gray-500, #040607);
+  background-color:  #4545450a;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

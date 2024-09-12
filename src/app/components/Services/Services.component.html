@@ -1,36 +1,16 @@
-<!-- <div>
-  <div class="detail" style="padding-top: 2em">
-    <img
-      style="width: 10em; height: auto"
-      src="assets/web-detail.png"
-      alt=""
-    />
-  </div>
-  <div align="center" class="pt-2">
-    <div class="ajust-title">
-      <div class="news-divider">
-        <h1 class="heading-210">SERVICES</h1>
-        <div class="portfolios-title-divider">
-          <div class="horizontal-divider20"></div>
-          <div class="horizontal-divider21"></div>
-        </div>
-        <div class="ajust-title">
-          <h3 align="center" class="portfolios1">SERVICES</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-<app-title-section [title]="title" class="ajust-service-title"></app-title-section>
+<app-title-section
+  id="servicos"
+  [title]="title"
+  class="ajust-service-title"
+></app-title-section>
 
 <section id="services" class="content-container">
-
   <div class="content-container">
     <div class="container-content">
       <div class="services">
         <div class="services-content1">
           <div class="service-list">
-            <div class="backgroundborder2">
+            <div class="backgroundborder2" data-aos="zoom-in">
               <div class="service-elements">
                 <img
                   class="backgroundborder-icon1"
@@ -45,13 +25,9 @@
                 </div>
                 <div class="lorem-ipsum-dolor-container1">
                   <p class="lorem-ipsum-dolor1">
-                    Lorem ipsum dolor sittem ametamn
-                  </p>
-                  <p class="lorem-ipsum-dolor1">
-                    elit, per sed do eiusmoad teimpor
-                  </p>
-                  <p class="lorem-ipsum-dolor1">
-                    sittem elit inuning utsed sittem.
+                    Criação de esboços que trazem suas ideias para a
+                    realidade. Uma base sólida para o
+                    desenvolvimento de designs.
                   </p>
                 </div>
               </div>
@@ -60,6 +36,9 @@
               class="ajust-card"
               [backgroundBorder]="'assets/backgroundborder-1.svg'"
               [heading2UIUXDesign]="'UI/UX Design'"
+              [cardContent]="
+                'Projetos focados em melhorar a interação e experiência do usuário, criando interfaces intuitivas e eficientes.'
+              "
             >
             </background-border
             ><background-border
@@ -67,6 +46,9 @@
               [propAlignSelf]="'unset'"
               [propAlignSelf1]="'unset'"
               [heading2UIUXDesign]="'Product Design'"
+              [cardContent]="
+                'Design estratégico e criativo para desenvolver produtos inovadores e funcionais, focados nas necessidades do usuário.'
+              "
               [propDisplay]="'unset'"
               [propMinWidth]="'unset'"
               [propFlex]="'unset'"
@@ -77,6 +59,9 @@
               [propAlignSelf]="'unset'"
               [propAlignSelf1]="'unset'"
               [heading2UIUXDesign]="'App Design'"
+              [cardContent]="
+                'Desenvolvimento de interfaces atrativas e funcionais para aplicativos, proporcionando uma navegação simples e intuitiva.'
+              "
               [propDisplay]="'inline-block'"
               [propMinWidth]="'110px'"
               [propFlex]="'unset'"
@@ -87,6 +72,9 @@
               [propAlignSelf]="'unset'"
               [propAlignSelf1]="'unset'"
               [heading2UIUXDesign]="'Motion Graphics'"
+              [cardContent]="
+                'Animações visuais dinâmicas para comunicar ideias de forma criativa e engajar seu público com movimento.'
+              "
               [propDisplay]="'unset'"
               [propMinWidth]="'unset'"
               [propFlex]="'unset'"
@@ -97,6 +85,9 @@
               [propAlignSelf]="'stretch'"
               [propAlignSelf1]="'stretch'"
               [heading2UIUXDesign]="'Responsive Design'"
+              [cardContent]="
+                'Criação de layouts que se adaptam perfeitamente a qualquer dispositivo, garantindo uma experiência consistente.'
+              "
               [propDisplay]="'unset'"
               [propMinWidth]="'unset'"
               [propFlex]="'1'"

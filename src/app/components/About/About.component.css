@@ -1,53 +1,14 @@
-.heading-21 {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: inherit;
-  line-height: 108px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-}
-
 .ajust-about-title {
   padding-top: 9em;
   padding-bottom: 1em;
 }
 
-.portfolios-title {
-  width: 170px;
-  height: 2px;
-  bottom: 46.2px;
-  left: 155.9px;
-  background-color: var(--color-darkslategray);
-}
-
-.about-me {
-  top: 16px;
-  right: 173.1px;
-  font-size: var(--font-size-5xl);
-  letter-spacing: 1px;
-  line-height: 29px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: inherit;
-  color: var(--color-goldenrod);
-}
-
-.about-wrapper,
-.services-content {
+.about-wrapper {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
 
-.services-content {
-  width: 482.3px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-}
 
 .about-wrapper {
   align-self: stretch;
@@ -364,11 +325,6 @@
 }
 
 @media screen and (max-width: 1161px) {
-  .heading-21 {
-    font-size: var(--font-size-26xl);
-    line-height: 65px;
-  }
-
   .image-icon2 {
     width: 80%;
     flex: 1;
@@ -386,7 +342,7 @@
   }
 
   .ajust-btn {
-    padding: 15px 30px;
+    padding: 55px 2px;
   }
 
   .about-bio,
@@ -409,14 +365,6 @@
   .about {
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
-  }
-
-  .portfolios-title {
-    width: 170px;
-    height: 2px;
-    bottom: 66.2px;
-    left: 155.9px;
-    background-color: var(--color-darkslategray);
   }
 
   .contentt {

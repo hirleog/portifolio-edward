@@ -27,6 +27,9 @@
   height: 2px;
   z-index: 2;
 }
+.ajust-footer {
+  width: 100%!important;
+}
 .blog1,
 .news-title-divider {
   margin: 0 !important;

@@ -10,9 +10,10 @@
   background-color: var(--color-gray-400);
   height: auto !important;
   width: 100%;
-  padding-top: 13em;
+  padding-top: 0em;
   padding-bottom: 0em;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel {

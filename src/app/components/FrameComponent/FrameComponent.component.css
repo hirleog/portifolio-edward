@@ -72,7 +72,7 @@
   min-width: 57px;
 }
 
-.container,
+.container-ajust,
 .hero-description,
 .hero-profession,
 .link {
@@ -96,7 +96,7 @@
   background-color: var(--color-darkgoldenrod);
 }
 
-.container,
+.container-ajust,
 .hero-description,
 .hero-profession {
   flex-direction: column;
@@ -108,19 +108,19 @@
   color: var(--color-darkgray);
 }
 
-.container,
+.container-ajust,
 .hero-description {
   box-sizing: border-box;
   max-width: 100%;
 }
 
-.container {
+.container-ajust {
   align-self: stretch;
   /* overflow: hidden; */
   padding: var(--padding-111xl-9) var(--padding-386xl) var(--padding-117xl-9);
   position: relative;
   gap: var(--gap-17xl);
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .hero-description {
@@ -130,11 +130,11 @@
 }
 
 .hero-imgjpg-icon {
-  height: 850px;
-  width: 864px;
+  height: 775px;
+  width: 848px;
   position: absolute;
   margin: 0 !important;
-  top: -8px;
+  top: 74px;
   right: 0;
   overflow: hidden;
   flex-shrink: 0;
@@ -343,7 +343,7 @@
 }
 
 @media screen and (max-width: 1490px) {
-  .container {
+  .container-ajust {
     padding-left: var(--padding-183xl);
     padding-right: var(--padding-183xl);
     box-sizing: border-box;
@@ -354,6 +354,7 @@
   .hero-imgjpg-icon {
     width: 42%;
   }
+
   .hero-description {
     min-height: 750px;
   }
@@ -376,7 +377,7 @@
     line-height: 36px;
   }
 
-  .container {
+  .container-ajust {
     gap: var(--gap-lg);
     padding: 28px;
     box-sizing: border-box;
@@ -393,7 +394,9 @@
   }
 
   .hero-imgjpg-icon {
-    display: none;
+    display: 30%;
+    height: 703px;
+
   }
 
   .hero-title {
@@ -401,7 +404,19 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 860px) {
+  .edward {
+    font-size: 100px !important;
+  }
+
+  .hero-imgjpg-icon {
+    display: 20%;
+    background-color: red;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
   .heading-3 {
     font-size: 30px;
     line-height: 50px;
@@ -421,7 +436,7 @@
     gap: var(--gap-2xl);
   }
 
-  .container {
+  .container-ajust {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
@@ -448,5 +463,17 @@
   .section-wrapper {
     padding-bottom: var(--padding-14xl);
     box-sizing: border-box;
+  }
+
+  .hero-imgjpg-icon {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .edward-davis {
+    font-size: 85px !important;
+    line-height: 82px;
   }
 }

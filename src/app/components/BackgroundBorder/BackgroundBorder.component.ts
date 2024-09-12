@@ -22,6 +22,7 @@ export class BackgroundBorder {
   /** Value props */
   @Input() backgroundBorder: string = "";
   @Input() heading2UIUXDesign: string = "";
+  @Input() cardContent: string = "";
   /** Style props */
   @Input() propAlignSelf: string | number = "";
   @Input() propAlignSelf1: string | number = "";

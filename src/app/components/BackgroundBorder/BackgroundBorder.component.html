@@ -1,17 +1,17 @@
 <!-- <div class="container"> -->
-  <div class="backgroundborder1">
-    <div class="backgroundborder-wrapper">
-      <img class="backgroundborder-icon" alt="" [src]="backgroundBorder" />
+<div class="backgroundborder1" data-aos="zoom-in" data-aos-duration="1500">
+  <div class="backgroundborder-wrapper">
+    <img class="backgroundborder-icon" alt="" [src]="backgroundBorder" />
+  </div>
+  <div class="frame-parent" [ngStyle]="frameDivStyle">
+    <div class="heading-23" [ngStyle]="heading2Style">
+      {{ heading2UIUXDesign }}
     </div>
-    <div class="frame-parent" [ngStyle]="frameDivStyle">
-      <div class="heading-23" [ngStyle]="heading2Style">
-        {{ heading2UIUXDesign }}
-      </div>
-      <div class="lorem-ipsum-dolor-container">
-        <p class="lorem-ipsum-dolor">Lorem ipsum dolor sittem ametamn</p>
-        <p class="lorem-ipsum-dolor">elit, per sed do eiusmoad teimpor</p>
-        <p class="lorem-ipsum-dolor">sittem elit inuning utsed sittem.</p>
-      </div>
+    <div class="lorem-ipsum-dolor-container">
+      <p class="lorem-ipsum-dolor">{{ cardContent }}</p>
+      <!-- <p class="lorem-ipsum-dolor">bebebe</p>
+      <p class="lorem-ipsum-dolor">cececec</p> -->
     </div>
   </div>
+</div>
 <!-- </div> -->
